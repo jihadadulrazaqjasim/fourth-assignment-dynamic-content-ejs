@@ -1,0 +1,14 @@
+<%- include('includes/head.ejs') %>
+</head>
+
+<body>
+<main>
+   <form action="/users" method="post">
+    <label for="username">Username
+        <input type="text" name="username" id="username" placeholder="username" style="padding: 6px;border-radius: 5px">
+    </label>
+       <button type="submit" style="padding: 5px 5px;background: #69e769" >Add User</button>
+   </form>
+</main>
+
+<%- include('includes/end.ejs') %>
